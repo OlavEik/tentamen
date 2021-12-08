@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilark.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Klima-kalkulator</h1>
+    <h2>Antall middager i uken med:</h2>
+    <div id="måltider">
+        <p>Kjøtt: <input type="number" id="kjøtt" min="0" value="0"></p>
+        <p>Fisk: <input type="number" id="fisk" min="0" value="0"></p>
+        <p>Vegetar: <input type="number" id="vegetar" min="0" value="0"></p>
+    </div>
+    <h2>Antall flyreiser til utlandet:</h2>
+    <p>Utenlandsreiser: <input type="number" id="utenlandsreiser"></p>
+
+    <br><h2>Ditt CO<sub>2</sub> utslipp:</h2>
+    <p id="CO2"></p>
+    <p id="resultat">Du er en klima engel!</p>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

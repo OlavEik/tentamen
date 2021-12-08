@@ -1,0 +1,41 @@
+form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    width: 150px;
+    border-style: solid;
+}
+#profilbilder input {
+    width: fit-content !important;
+    margin-left: 20px;
+}
+#interesser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#interesser input {
+    width: fit-content;
+}
+#utskrift {
+    width: fit-content;
+    height: fit-content;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(211, 211, 211);
+}
+#utskrift ul{
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}

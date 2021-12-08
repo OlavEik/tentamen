@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilark.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="skjema" id="skjema">
+        <label for="brukernavn">Brukernavn:</label>
+        <input type="text" id="brukernavn" name="brukernavn" required autofocus>
+        <label for="epost">E-post:</label>
+        <input type="email" id="epost" name="epost" required>
+        <label for="passord">Passord:</label>
+        <input type="password" id="passord" name="passord" required>
+        <label for="profilbilder">Profilbilde:</label>
+        <div id="profilbilder">
+            <div><input type="radio" name="profilbilder" value="Profilbilde1" required><img src="profilbilder/Profilbilde1.png" height="50px" width="50px"></div>
+            <div><input type="radio" name="profilbilder" value="Profilbilde2"><img src="profilbilder/Profilbilde2.png" height="50px" width="50px"></div>
+            <div><input type="radio" name="profilbilder" value="Profilbilde3"><img src="profilbilder/Profilbilde3.png" height="50px" width="50px"></div>
+        </div>
+        <div id="interesser">
+            <label for="hest"><input type="checkbox" value="Hest" id="hest">Hest</label>
+            
+            <label for="lyttefunksjoner"><input type="checkbox" value="Lyttefunksjoner" id="lyttefunksjoner">Lyttefunksjoner</label>
+            
+            <label for="rødeKorker"><input type="checkbox" value="Røde korker" id="rødeKorker">Røde korker</label>
+            
+        </div>
+        <input type="submit">
+    </form>
+
+    <div id="utskrift">
+        
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
